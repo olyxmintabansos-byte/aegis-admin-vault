@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --bg-obsidian: #07080D;
+  --card-surface: #0E111A;
+  --accent-emerald: #00F5A0;
+  --accent-cyan: #00C9FF;
+  --alert-crimson: #FF3366;
+}
+
+@theme inline {
+  --color-background: var(--bg-obsidian);
+  --color-foreground: #e5e7eb;
+  --color-accent: var(--accent-emerald);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-obsidian);
+  color: #e5e7eb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif;
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
